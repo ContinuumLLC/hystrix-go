@@ -1,4 +1,4 @@
-module github.com/afex/hystrix-go
+module github.com/ContinuumLLC/hystrix-go
 
 go 1.15
 
@@ -9,5 +9,3 @@ require (
 	github.com/smartystreets/goconvey v1.6.4
 	github.com/stretchr/testify v1.6.1 // indirect
 )
-
-replace github.com/afex/hystrix-go => github.com/ContinuumLLC/hystrix-go v1.0.1

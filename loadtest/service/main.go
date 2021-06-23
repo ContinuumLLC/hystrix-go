@@ -11,9 +11,9 @@ import (
 	"runtime"
 	"time"
 
-	"github.com/afex/hystrix-go/hystrix"
-	"github.com/afex/hystrix-go/hystrix/metric_collector"
-	"github.com/afex/hystrix-go/plugins"
+	"github.com/ContinuumLLC/hystrix-go/hystrix"
+	"github.com/ContinuumLLC/hystrix-go/hystrix/metric_collector"
+	"github.com/ContinuumLLC/hystrix-go/plugins"
 	"github.com/cactus/go-statsd-client/statsd"
 )
 
