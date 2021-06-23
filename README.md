@@ -20,7 +20,7 @@ How to use
 ----------
 
 ```go
-import "github.com/afex/hystrix-go/hystrix"
+import "github.com/ContinuumLLC/hystrix-go/hystrix"
 ```
 
 ### Execute code as a Hystrix command
@@ -141,5 +141,5 @@ Build and Test
 - Install vagrant and VirtualBox
 - Clone the hystrix-go repository
 - Inside the hystrix-go directory, run ```vagrant up```, then ```vagrant ssh```
-- ```cd /go/src/github.com/afex/hystrix-go```
+- ```cd /go/src/github.com/ContinuumLLC/hystrix-go```
 - ```go test ./...```
